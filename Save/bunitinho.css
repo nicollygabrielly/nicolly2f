@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+background-color: #424e61;
+display: flex;
+padding: 20px 10px;
+justify-content: space-around;
+align-items: center;
+}
+
+.lista-cabecalho{
+    color: whitesmoke;
+    font-size: 23px;
+}
+.lista-item{
+    display: inline-block;
+    margin: 0 16px;
+}
+.primeira-parte{
+    background-image: linear-gradient(#424e61,#b91ba4);
+    height: 500px;
+    color: whitesmoke;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: column;
+
+}
+.texto{
+    max-width: 100%;
+    width: 100%;
+}
+.primeiro-paragrafo{
+    padding: 15px;
+    font-size: 20px;
+}
+.segundo-paragrafo{
+    padding: 15px;
+    font-size: 20px;
+}
+.quem-somos{
+    padding: 24px 0;
+}
